@@ -71,7 +71,7 @@ body{
 }
 
 .resultado p{
-    max-widht: 26%;
+    max-width: 26rem;
     margin-inline: auto;
     color: var(--light-blue);
 }
@@ -139,10 +139,11 @@ body{
     color: var(--white);
     padding-block: 1.6rem;
     border-radius: 12.8rem;
+    font-size: 1.8rem;
     font-weight: 700;
 }
 
-@media (min-widht: 736px) {
+@media(min-width: 736px) {
     
     body{
         min-height: 100svh;
@@ -158,9 +159,7 @@ body{
     width: 736px;
     background: var(white);
     border-radius: 3.2rem;
-
-        
-    }
+}
 
     .resultado{
         padding-block: 3.8rem;
@@ -173,7 +172,7 @@ body{
     }
 
     .resultado div{
-        widht: 20rem;
+        width: 20rem;
         height: 20rem;
         margin-bottom: 2.8rem;
     }
